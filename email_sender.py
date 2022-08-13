@@ -13,7 +13,7 @@ load_dotenv()
 
 SENDER_EMAIL = os.getenv('MAIL_NAME')
 SENDER_PASS = os.getenv('MAIL_PASS')
-EMAIL_FOR = ['danich.hz@yandex.ru', 'dan.dad@bk.ru']
+EMAIL_FOR = ['yourmail1@yandex.ru', 'yourmail2@bk.ru']
 
 
 def email_sender():
